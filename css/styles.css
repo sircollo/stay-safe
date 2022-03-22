@@ -100,3 +100,33 @@ button {
     border-radius: 5px;
     border: none;
 }
+
+
+/* //////////////////// */
+
+.searchField .search {
+    width: 100%;
+    position: relative;
+    display: flex;
+}
+
+.searchField .searchSection {
+    width: 100%;
+    color: black;
+    border-right: none;
+    padding: 5px;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+}
+
+.searchField .searchButton {
+    width: 40px;
+    height: 50px;
+    background: #066806;
+    text-align: center;
+    color: #fff;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    font-size: 15px;
+    border: 1px solid #066806;
+}
