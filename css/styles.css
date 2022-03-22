@@ -69,3 +69,15 @@ a:hover{
   font-size: 15px;
   border: 1px solid #066806;
 }
+.header{
+  text-align: center;
+  padding-top: 2%;
+  background-color: rgb(17, 153, 73);
+}
+.headerText{
+  font-size: 23px;
+}
+.userArea{
+  margin-left: 0%;
+  padding-left: 0%;
+}
