@@ -53,17 +53,17 @@ a:hover {
 
 .sect1 {
     background-color: #3CF0CE;
-    height: 1440px;
+    height: 100vh;
+    width: 100%;
 }
 
 .heading {
     margin: auto;
-    width: 40%;
+    width: 60%;
     padding: 10px;
     font-size: 30px;
     text-align: center;
     font-weight: 500;
-    padding-left: 20px;
 }
 
 .fillform {
@@ -146,8 +146,7 @@ button {
 .formmap {
     display: flex;
     justify-content: space-around;
-    margin-top: 100px;
-    margin-bottom: 100px;
+    margin-bottom: 10px;
 }
 
 .lowhead {
