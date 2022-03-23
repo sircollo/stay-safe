@@ -81,7 +81,7 @@ a:hover {
     padding-left: 20px;
 }
 
-button {
+.reportButton {
     color: white;
     height: 50px;
     width: 250px;
