@@ -52,7 +52,11 @@
         <div class="formmap">
             <div class="fillform">
                 <form>
+                    <label for="location">Pick Current Date</label>
+                    <br>
                     <input type="date" class="date" placeholder="date">
+                    <br>
+                    <label for="location">Enter Location</label>
                     <br>
                     <select class="location" name="location" aria-placeholder="Location">
             <option value="LANGATA">LANGATA</option>
@@ -62,11 +66,14 @@
             <option value="EMBAKASI">EMBAKASI</option>
           </select>
                     <br>
-                    <input type="text" class="description" placeholder="Description">
+                    <label for="discription">Enter Description Below</label>
+                    <br>
+                    <input type="text" class="description">
                     <br>
                     <button type="submit" class="reportButton">REPORT</button>
                 </form>
             </div>
+            <br>
             <div class="map">
                 <div class="mapouter">
                     <div class="gmap_canvas"><iframe width="831" height="737" id="gmap_canvas" src="https://maps.google.com/maps?q=nairobi%20langata&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
@@ -75,16 +82,16 @@
                             .mapouter {
                                 position: relative;
                                 text-align: right;
-                                height: 737px;
-                                width: 831px;
+                                height: 600px;
+                                width: 800px;
                             }
                         </style><a href="https://www.embedgooglemap.net">add google maps to html</a>
                         <style>
                             .gmap_canvas {
                                 overflow: hidden;
                                 background: none !important;
-                                height: 737px;
-                                width: 831px;
+                                height: 600px;
+                                width: 800px;
                             }
                         </style>
                     </div>
