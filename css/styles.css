@@ -12,6 +12,7 @@ a:hover {
 
 .navbar-brand {
     font-size: 2.5rem;
+    color: green !important;
 }
 
 
@@ -201,6 +202,9 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     width: 100%; 
     height: 75vh;
     margin-top: 3%;
+}
+span{
+    color: red;
 }
 
 
