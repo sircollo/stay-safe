@@ -187,9 +187,6 @@ label {
 .mapouter {
     margin-top: 30px;
 }
-.panel-header {
-    background: #3CF0CE;
-  }
 
   .panel-header {
     background: #3CF0CE;
@@ -201,7 +198,6 @@ label {
     padding-top: 20px;
     padding-bottom: 20px;
   }
-
 
 .panel-header h2 {
     float: left;
