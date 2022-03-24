@@ -51,24 +51,25 @@
         </div>
         <div class="formmap">
             <div class="fillform">
-                <form>
+                <form id="safety-form">
                     <label for="location">Pick Current Date</label>
                     <br>
-                    <input type="date" class="date" placeholder="date">
+                    <input type="date" class="date" id="date" placeholder="date" name="date" value=""/>
                     <br>
                     <label for="location">Enter Location</label>
                     <br>
                     <select class="location" name="location" aria-placeholder="Location">
-            <option value="LANGATA">LANGATA</option>
-            <option value="CBD">CBD</option>
-            <option value="WESTLANDS">WESTLANDS</option>
-            <option value="DAGORETTI">DAGORETTI</option>
-            <option value="EMBAKASI">EMBAKASI</option>
-          </select>
+                        <option value="">Choose ...</option>
+                        <option value="LANGATA">LANGATA</option>
+                        <option value="CBD">CBD</option>
+                        <option value="WESTLANDS">WESTLANDS</option>
+                        <option value="DAGORETTI">DAGORETTI</option>
+                        <option value="EMBAKASI">EMBAKASI</option>
+                    </select>
                     <br>
                     <label for="discription">Enter Description Below</label>
                     <br>
-                    <input type="text" class="description">
+                    <input type="text" class="description" name="description" value="" />
                     <br>
                     <button type="submit" class="reportButton">REPORT</button>
                 </form>
@@ -104,64 +105,15 @@
         </div>
     </section>
     <h3 class="text-center "> REPORTS</h3>
-    <div class="panel-header" rel="lang-head">
-        <h2>LANGATA</h2>
-        <button type="button">Show</button>
-        
-    </div>
-    <div class="panel" id="lang-report" >
-        <p>Some Paragraph #1</p>
-    </div>
-    <div class="panel-header" rel="cbd-head">
-        <h2>CBD</h2>
-        <button type="button">Show</button>
-        
-    </div>
-    <div class="panel" id="cbd-report">
-        <p>Some Paragraph #2</p>
-    </div>
-   
-<div class="panel-header" rel="westy-head">
-      <h2>WESTLANDS</h2>
-      <button type="button">Show</button>
-      
-  </div>
-  <div class="panel" id="westy-report" >
-      <p>Some Paragraph #1</p>
-  </div>
-
-    <div class="panel-header" rel="emba-head">
-        <h2>DAGORETTI</h2>
-        <button type="button">Show</button>
-        
-    </div>
-    <div class="panel" id="emba-report">
-        <p>Some Paragraph #2</p>
-    </div>
-
-    <div class="panel-header" rel="emba-head">
-        <h2>EMBAKASSI</h2>
-        <button type="button">Show</button>
-        
-    </div>
-    <div class="panel" id="emba-report">
-        <p>Some Paragraph #2</p>
-    </div>
-
-    <div class="panel-header" rel="emba-head">
-        <h2>KASARANI</h2>
-        <button type="button">Show</button>
-        
-    </div>
-    <div class="panel" id="emba-report">
-        <p>Some Paragraph #2</p>
-    </div>
+    <div id="reports-container"></div>
 
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous">
     </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous">
     </script>
+
+    <script src="js/script.js"></script>
 
 </body>
 

@@ -188,10 +188,6 @@ label {
     margin-top: 30px;
 }
 
-.panel-header {
-    background: #3CF0CE;
-  }
-  
   .panel-header {
     background: #3CF0CE;
     margin-top: 40px;
@@ -202,6 +198,7 @@ label {
     padding-top: 20px;
     padding-bottom: 20px;
   }
+
 .panel-header h2 {
     float: left;
     padding-left:20px;
@@ -214,9 +211,7 @@ label {
     margin-top:5px
   }
   
-  .panel-header h2 {
-    float: left;
-  }
+
   
   .panel {
     display: none;
