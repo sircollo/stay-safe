@@ -45,11 +45,6 @@
 
 ## Authors Info
 
-<a href="https://github.com/Dindihub"> Git hub</a> -Sandra Dindi  <br>
- <a href="https://github.com/KakushaVenecia"> Git hub - Kakusha Venecia</a> <br>
-  <a href="https://github.com/KakushaVenecia"> Git hub - Kakusha Venecia</a> <br>
-<a href="https://github.com/KakushaVenecia"> Git hub - Kakusha Venecia</a> <br>
-
 [Tanatwanashe Zuze]("https://github.com/tanatswanashe-zuze")
 
 [Sandra Dindi]("https://github.com/Dindihub")
