@@ -49,6 +49,7 @@
 
 
 ### Authors Info
+[Collins Sirwani]("https://github.com/sircollo")
 
 [Tanatwanashe Zuze]("https://github.com/tanatswanashe-zuze")
 
@@ -56,7 +57,7 @@
 
 [Venecia Kakusha]("https://github.com/KakushaVenecia")
 
-[Collins Sirwani]("https://github.com/sircollo")
+
  
 ## Licence 
 [MIT](https://github.com/sircollo/stay-safe/blob/main/LICENSE)
