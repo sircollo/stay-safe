@@ -54,18 +54,19 @@
               reportsContainer.innerHTML += reportTemplate;
               reports.push(report);
               clearFormFields();
-              // let showButtons = document.querySelectorAll('.show-description');
-              // console.log(showButtons);
   
               // Listening for click event for all the show buttons
               let showButtons = document.querySelectorAll('.show-description');
-              console.log(showButtons);
               showButtons.forEach((showButton) => {
                 showButton.addEventListener('click', e => {
-                    console.log(e.target.dataset.id);
                     let paragraph = document.querySelector(`.${e.target.dataset.id}`);
-                    console.log(paragraph);
-                    paragraph.style.display = "block";
+                    if(showButton.innerHTML === "Show") {
+                        showButton.innerHTML = "Hide";
+                        paragraph.style.display = "block";
+                    } else {
+                        showButton.innerHTML = "Show";
+                        paragraph.style.display = "none";
+                    }
                 });
             });
           } else {
