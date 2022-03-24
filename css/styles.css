@@ -126,7 +126,7 @@ a:hover {
 .reportButton {
     padding: 5%;
     padding-left: 18%;
-    margin-bottom: 0%;
+    margin-bottom: 0%;    
 }
 
 .mapouter {
@@ -206,6 +206,20 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 span{
     color: red;
 }
-
-
+.show-description{
+    background-color: white;
+    border: none;
+    color: red;
+    padding: 9px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    border-radius: 5px;
+    /* font-weight: bolder; */
+}
+#reports h3{
+    padding-top: 3%;
+    font-weight: 800;
+}
 
