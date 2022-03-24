@@ -151,6 +151,7 @@ a:hover {
     overflow: hidden;
     margin-right: 50px;
     margin-left: 50px;
+}
     padding-top: 20px;
     padding-bottom: 20px;
 }
@@ -190,6 +191,6 @@ a:hover {
     padding-top: 2%;
 }
 
-#reports {
-    padding-top: 5%;
-}
+
+
+
