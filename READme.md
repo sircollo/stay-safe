@@ -1,7 +1,7 @@
 # Stay Safe 
 
 ### By Group 6 
-### It is a description of Stay Safe Application
+### This is a web application to keep you and your community stay safe
 
 ## Table of Content
 
@@ -56,6 +56,8 @@
 
 [Go Back to the top](#portfolio)
 
+## Licence 
+[MIT](https://github.com/sircollo/stay-safe/blob/main/LICENSE)
 
 
 Copyright (c) [2022] [Group 6]
