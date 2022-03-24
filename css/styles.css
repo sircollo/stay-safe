@@ -12,6 +12,7 @@ a:hover {
 
 .navbar-brand {
     font-size: 2.5rem;
+    color: green !important;
 }
 
 
@@ -149,26 +150,29 @@ a:hover {
     overflow: hidden;
     margin-right: 50px;
     margin-left: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em 3em;
 }
 
-padding-top: 20px;
-padding-bottom: 20px;
-
-}
 .panel-header h2 {
     float: left;
-    padding-left: 20px;
+    /* padding-left: 20px; */
     color: #fff;
+    margin: 0;
 }
+
 .panel-header h4,
 .panel-header button {
     float: right;
-    margin-right: 10px;
-    margin-top: 5px
 }
+
 .panel {
     display: none;
 }
+
 .panel p {
     margin: 0;
     padding: 0 10px 20px;
@@ -178,38 +182,80 @@ padding-bottom: 20px;
     padding-right: 10%;
     text-align: justify;
 }
+
 .landing-footer {
     text-align: center;
     font-style: italic;
     padding-top: 2%;
 }
+
+input[type="date"]::-webkit-inner-spin-button,
+input[type="date"]::-webkit-calendar-picker-indicator {
+    display: none;
+    -webkit-appearance: none;
+}
+
+#map {
+    width: 100%;
+    height: 75vh;
+    margin-top: 3%;
+}
+
+span {
+    color: red;
+}
+
+.show-description {
+    background-color: white;
+    border: none;
+    color: red;
+    padding: 9px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    border-radius: 5px;
+    /* font-weight: bolder; */
+}
+
+#reports h3 {
+    padding-top: 3%;
+    font-weight: 800;
+}
+
 .sectc {
     background-color: #066806;
 }
+
 .contact {
     margin-left: 5%;
 }
+
 .contact h1 {
     padding-top: 50px;
     padding-bottom: 20px;
     font-size: 60px;
     color: black;
 }
+
 .contact h2 {
     font-size: 40px;
     padding-top: 10px;
     padding-bottom: 10px;
     color: white;
 }
+
 .contact a,
 li {
     text-decoration: none;
     color: black;
     font-size: 30px;
 }
+
 li {
     list-style: none;
 }
+
 :link :hover {
     color: white;
     text-decoration: none;

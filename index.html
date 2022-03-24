@@ -11,6 +11,8 @@
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/styles.css">
     <title>Stay Safe</title>
+    <link href="https://api.mapbox.com/mapbox-gl-js/v2.7.0/mapbox-gl.css" rel="stylesheet">
+    <script src="https://api.mapbox.com/mapbox-gl-js/v2.7.0/mapbox-gl.js"></script>
 </head>
 
 <body>
@@ -18,13 +20,13 @@
     <!-- navigation bar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark navigation">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#home">Stay Safe</a>
+            <a class="navbar-brand" href="#home">Stay <span>!</span> Safe</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-      </button>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
             <div class="collapse navbar-collapse justify-content-between" id="navbarTogglerDemo02">
                 <ul class="navbar-nav m-auto mb-2 mb-lg-0">
                     <li class="nav-item">
@@ -41,8 +43,8 @@
                     <div class="search">
                         <input type="text" class="searchSection" id="searchBar" placeholder="Location...">
                         <button type="submit" class="searchButton">
-              <i class="fa fa-search" aria-hidden="true"></i>
-            </button>
+                            <i class="fa fa-search" aria-hidden="true"></i>
+                        </button>
                     </div>
 
                 </div>
@@ -68,22 +70,22 @@
                         <div class="input-group date" id="datepicker">
                             <input type="date" class="form-control date" id="date" placeholder="Date..." name="date" value="" />
                             <span class="input-group-append">
-                <span class="input-group-text bg-light d-block">
-                  <i class="fa fa-calendar"></i>
-                </span>
+                                <span class="input-group-text bg-light d-block">
+                                    <i class="fa fa-calendar"></i>
+                                </span>
                             </span>
                         </div>
                         <!-- location -->
                         <div class="form group">
                             <label for="location" class="loca"></label>
                             <select name="location" class="custom-select location" id="location">
-                <option value="">Choose location...</option>
-                <option value="Langata">Langata</option>
-                <option value="CBD">CBD</option>
-                <option value="Westlands">Westlands</option>
-                <option value="Dagoretti">Dagoretti</option>
-                <option value="Embakasi">Embakasi</option>
-              </select>
+                                <option value="">Choose location...</option>
+                                <option value="Langata">Langata</option>
+                                <option value="CBD">CBD</option>
+                                <option value="Westlands">Westlands</option>
+                                <option value="Dagoretti">Dagoretti</option>
+                                <option value="Embakasi">Embakasi</option>
+                            </select>
                             <!-- description -->
                             <div class="form-group">
                                 <label class="incidence"></label>
@@ -103,18 +105,21 @@
                 <!-- user input form -->
                 <div class="mapouter">
 
-                    <!-- <div class="mapouter"> -->
-                    <!-- <h3>Check Incidences</h3> -->
-                    <div class="gmap_canvas">
-                        <iframe width="100%" height="100%" id="gmap_canvas" src="https://maps.google.com/maps?q=Nairobi&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
-                        <a href="https://123movies-to.org"></a><br>
-                        <a href="https://www.embedgooglemap.net"></a>
+                    <div class="mapouter">
+
+                        <div class="gmap_canvas">
+                            <iframe width="100%" height="100%" id="gmap_canvas" src="https://maps.google.com/maps?q=Nairobi&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                            <a href="https://123movies-to.org"></a><br>
+                            <a href="https://www.embedgooglemap.net"></a>
+                        </div> -->
+
+                        <div id="map"></div>
+
                     </div>
                 </div>
             </div>
+            </form>
         </div>
-        </form>
-    </div>
     </div>
     <div class="landing-footer">
         <h5>Report And Check on incidences</h5>
@@ -128,7 +133,6 @@
         </div>
     </div>
     <!-- contact us -->
-
     <section class="sectc" name="sectc" id="sectc">
         <div class="contact">
             <h1>Emergency Services Contacts</h1>
@@ -161,15 +165,14 @@
     </section>
 
 
+
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous">
     </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous">
     </script>
     <script src="js/scripts.js"></script>
-
-
-    <script src="js/script.js"></script>
-
 </body>
 
 </html>
+
+>
