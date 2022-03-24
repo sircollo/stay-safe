@@ -1,5 +1,34 @@
-(function () {
+(async function () {
+    // Function to get user current position
+    function getLocation() {
+        return new Promise((resolve, reject) => { 
+        if (navigator.geolocation) {
+            navigator.geolocation.getCurrentPosition(position => {
+                let { latitude, longitude } = position.coords;
+                resolve({ latitude, longitude });
+            });
+            } else {
+            reject();;
+            }
+        });
+            
+        }
+        let coordinates = await getLocation();
+        // TO MAKE THE MAP APPEAR YOU MUST
+        // ADD YOUR ACCESS TOKEN FROM
+        // https://account.mapbox.com
+        mapboxgl.accessToken = 'pk.eyJ1Ijoic2lyd2FuaSIsImEiOiJjbDEzeGw2eHMwNTdrM2JxenU4bzh3bHk2In0.Jyxj6qQnW1Jtq3srl_w9Gw';
+    const map = new mapboxgl.Map({
+        container: 'map', // container ID
+        style: 'mapbox://styles/mapbox/streets-v11', // style URL
+        center: [coordinates.longitude, coordinates.latitude], // starting position [lng, lat]
+        zoom: 16 // starting zoom
+    });
+    new mapboxgl.Marker({ color: 'red'})
+    .setLngLat([coordinates.longitude, coordinates.latitude])
+    .addTo(map);
 
+    // pk.eyJ1Ijoic2lyd2FuaSIsImEiOiJjbDEzeGw2eHMwNTdrM2JxenU4bzh3bHk2In0.Jyxj6qQnW1Jtq3srl_w9Gw
     // Report Object
     function Report({id, date, location, description}) {
         this.id =  id,
