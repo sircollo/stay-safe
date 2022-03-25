@@ -70,7 +70,7 @@ a:hover {
 .searchField .searchButton {
     width: 40px;
     height: 50px;
-  height: 50px;  
+    height: 50px;
     height: 50px;
     background: #066806;
     text-align: center;
@@ -126,7 +126,7 @@ a:hover {
 .reportButton {
     padding: 5%;
     padding-left: 18%;
-    margin-bottom: 0%;    
+    margin-bottom: 0%;
 }
 
 .mapouter {
@@ -198,15 +198,18 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     display: none;
     -webkit-appearance: none;
 }
-#map{
-    width: 100%; 
+
+#map {
+    width: 100%;
     height: 75vh;
     margin-top: 3%;
 }
-span{
+
+span {
     color: red;
 }
-.show-description{
+
+.show-description {
     background-color: white;
     border: none;
     color: red;
@@ -218,8 +221,32 @@ span{
     border-radius: 5px;
     /* font-weight: bolder; */
 }
-#reports h3{
+
+#reports h5 {
     padding-top: 3%;
     font-weight: 800;
 }
 
+h1 {
+    color: black;
+}
+
+.contact-details,
+.contact-details1 {
+    padding-left: 45%;
+
+}
+
+.contacts {
+    background-color: #216e1e;
+}
+
+.contact-details1,
+a {
+    padding-top: 3%;
+    color: white;
+}
+
+.contacts p {
+    font-size: 25px;
+}
